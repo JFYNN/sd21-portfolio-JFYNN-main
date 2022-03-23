@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+.container{
+    background-color: black;
+    border: 5px solid #f5e4c3;
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn{
+    margin: 50px auto;
+    height: 60px;
+    width: 250px;
+    font-size: 22px;
+    background-color: whitesmoke 192, 191 ,191;
+    text-align: center;
+}
+.output{
+    margin: 25px auto;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+}
+article{
+    text-align: center;
+}

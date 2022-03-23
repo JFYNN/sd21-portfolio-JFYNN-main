@@ -1,0 +1,47 @@
+
+.carousel-container{
+    width: 40%;
+    height: 35%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+}
+.carousel-slide{
+    display: flex;
+    width: 35%;
+    height: 500px;
+    border: 5px black;
+}
+h1{
+    color: rgba(red, green, blue, alpha);
+    text-align: center;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: contact;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes contact{
+    from{
+        color: darkblue;
+    }
+    from{
+        color: red;
+    }
+    from{
+        color: green;
+    }
+    to{
+        color: yellow;
+    }
+}
+#prevBtn{
+    height: 30px;
+    border-radius: 20%;
+    margin-left: 930px;
+}
+#nextBtn{
+    height: 30px;
+    border-radius: 20%;
+    margin-left: 930px;
+}
